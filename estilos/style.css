@@ -20,9 +20,11 @@
 }
 body {
     background-color: var(--cor02);
-    background-image: url(../imagens/10.png);
+   /* background-image: url(../imagens/10.png);
     background-size: 100vw;
     background-position: top;
+    background-repeat: repeat-y;*/
+    
       
 }
 header {
@@ -77,8 +79,6 @@ menu > ul > li > a:hover {
     color: var(--cor01);
 }
 section.imagem {
-
-    /*box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.445);*/
     background-size: cover;
     background-attachment: fixed;
     display: block;
@@ -88,14 +88,19 @@ section.imagem {
 
 
 section > p {
+    display: block;
     padding: 20px;
     background-color: var(--cor02);
     color: white;
+    max-width: 100vw;
     text-align: justify;
+    margin-right: 0px;
+    
 }
 section#img03 {
     background-image: url(../imagens/4anos/5.jpg);
     background-size: 100vw;
+    padding: 0px;
     background-repeat: no-repeat;
     display: block;
     background-position: left top;
