@@ -4,7 +4,7 @@
     body {
         background-image: none;
     }
-    span#burguer {
+    i#burguer {
         display: none;
     }
     menu {
@@ -13,9 +13,34 @@
     menu > ul > li {
         display: inline-block;
     }
+
 }
-
-
 main {
     width: 768px;
+}
+menu > ul {
+    text-align: center;
+}
+img.idade {
+    width:  40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.733);
+}
+section#img01 {
+    background-position: top center ;
+    background-size: 70vw;
+}
+section#img03 {
+    background-size: 30vw;
+    background-position: center center;
+}
+section#img02 {
+    background-size: 30vw;
+    background-position: center bottom;
+
+}
+p#lorem {
+    display: block;
+    color: rgba(255, 255, 255, 0);
 }

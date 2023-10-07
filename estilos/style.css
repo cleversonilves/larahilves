@@ -26,6 +26,21 @@ header {
     color: var(--cor03);
    
 }
+img.idade {
+    width:  40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.733);
+}
+main {
+    width: 90vw;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    
+}
 div#larah > h1 {
     font-family: var(--font-01);
     color: var(--cor03);
