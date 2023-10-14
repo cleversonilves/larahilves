@@ -15,7 +15,7 @@ body {
 }
 main {
     width: 90vw;
-    height: 160vw;
+    height: 180vw;
     background-color: white;
     margin: auto;
     padding: 10px;
@@ -36,7 +36,7 @@ main {
 }
 .botoes {
     position: relative;
-    top: -320px;
+    top: -420px;
     right: -40px;
     width: 60px;
     display: flex;
@@ -70,7 +70,7 @@ main {
 h2 {
     position: relative;
     text-align: justify;
-    top: -140px;
+    top: -190px;
     padding: 20px;
 }
 ul {
