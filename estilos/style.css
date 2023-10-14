@@ -34,7 +34,7 @@ img.idade {
 }
 main {
     width: 90vw;
-    height: 700px;
+    height: 500px;
     background-color: white;
     margin: auto;
     padding: 10px;
@@ -44,7 +44,7 @@ main {
 h2 {
     position: relative;
     text-align: justify;
-    top: -140px;
+    top: -300px;
     padding: 20px;
 }
 div#larah > h1 {
