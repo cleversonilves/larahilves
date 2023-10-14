@@ -16,8 +16,8 @@
 }*/
 .botoes {
     position: fixed;
-    top: 180px;
-    right: 140px;
+    top: 200px;
+    right: 120px;
     display: flex;
     flex-direction: row;
     min-height: 100vh;
